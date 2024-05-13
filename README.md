@@ -1,7 +1,12 @@
 # TextMeshPro3.0.8-extend
        
+       fix Line break
 
-       
+        ![before](before.png)
+
+        ![after](after.png)
+
+
         // Usage 1: OnMaterialAssetRequest funtion Dynamic loading Material
 
         //TMP_Text.OnFontAssetRequest += (hashcode, asset) =>
