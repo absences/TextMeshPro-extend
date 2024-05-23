@@ -2,10 +2,8 @@
        
        fix Line break
 
-        ![before](before.png)
-
-        ![after](after.png)
-
+![before](before.png)
+![after](after.png)
 
         // Usage 1: OnMaterialAssetRequest funtion Dynamic loading Material
 
