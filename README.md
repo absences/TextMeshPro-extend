@@ -6,26 +6,26 @@
 
 ![after](./after.png)
 
-        // Usage 1: OnMaterialAssetRequest funtion Dynamic loading Material
+         Usage 1: OnMaterialAssetRequest funtion Dynamic loading Material
 
-        //TMP_Text.OnFontAssetRequest += (hashcode, asset) =>
-        //{
-        //    TMP_FontAsset font = resource.LoadAssetSync<TMP_FontAsset>(asset);
+        TMP_Text.OnFontAssetRequest += (hashcode, asset) =>
+        {
+            TMP_FontAsset font = resource.LoadAssetSync<TMP_FontAsset>(asset);
 
-        //    return font;
-        //};
+            return font;
+        };
 
-        //TMP_Text.OnMaterialAssetRequest += (asset) =>
-        //{
-        //    Material material = resource.LoadAssetSync<Material>( asset);
-        //    return material;
-        //};
-        //TMP_Text.OnSpriteAssetRequest += (asset) =>
-        //{
-        //    TMP_SpriteAsset sprite = resource.LoadAssetSync<TMP_SpriteAsset>(asset);
+        TMP_Text.OnMaterialAssetRequest += (asset) =>
+        {
+            Material material = resource.LoadAssetSync<Material>( asset);
+            return material;
+        };
+        TMP_Text.OnSpriteAssetRequest += (asset) =>
+        {
+            TMP_SpriteAsset sprite = resource.LoadAssetSync<TMP_SpriteAsset>(asset);
 
-        //    return sprite;
-        //};
+            return sprite;
+        };
 
         //resource: use your resource sync load funtion
 
@@ -40,7 +40,7 @@
                 Application.OpenURL(str.Remove(0, 4));
             }
         });
-        // note: if use  Button/Text (TMP),toogle off the TextMeshProUGUI.raycastTarget
+        // note: if use  Button/Text (TMP),toogle off the text.raycastTarget
 
 
         //Usage 3:
