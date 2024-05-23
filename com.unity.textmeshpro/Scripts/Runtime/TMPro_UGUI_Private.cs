@@ -3443,7 +3443,7 @@ namespace TMPro
                         // We store the state of numerous variables for the most recent Space, LineFeed or Carriage Return to enable them to be restored
                         // for Word Wrapping.
                         SaveWordWrappingState(ref m_SavedWordWrapState, i, m_characterCount);
-                        //isFirstWordOfLine = false;
+                        isFirstWordOfLine = false;
                         //isLastCharacterCJK = false;
 
                         // Reset soft line breaking point since we now have a valid hard break point.
@@ -3469,7 +3469,7 @@ namespace TMPro
                             if (isNextFollowingCharacter == false)
                             {
                                 SaveWordWrappingState(ref m_SavedWordWrapState, i, m_characterCount);
-                                //isFirstWordOfLine = false;
+                                isFirstWordOfLine = false;
                             }
 
                             if (isFirstWordOfLine)

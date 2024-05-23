@@ -12,7 +12,7 @@
     "versionDefines": [
         {
             "name": "Unity",
-            "expression": "[2022.3.161,2023.1)",
+            "expression": "[2022.3.16f1,2023.1)",
             "define": "UNITY_XR_VISIONOS_SUPPORTED"
         },
         {
