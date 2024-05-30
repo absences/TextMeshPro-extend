@@ -27,7 +27,7 @@
             return sprite;
         };
 
-        //resource: use your resource sync load funtion
+        //resource: use your resource sync load function
 
 
         //Usage 2: TextMeshProUGUI  IPointerClickHandler event
@@ -46,7 +46,6 @@
         //Usage 3:
         //When all resources need to be uninstalled after the hot update is completed
         //TextMeshPro need to clean up the loaded materials
-
 
         MaterialReferenceManager.instance.Clear();
 
