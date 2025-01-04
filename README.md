@@ -60,4 +60,4 @@
         //Usage 4: add language id for localization
         var languageid = GetComponent<TextMeshProUGUI>().m_Language;
 
-      // GetComponent<TextMeshProUGUI>().text=GetStrByID(languageid);
+      // GetComponent<TextMeshProUGUI>().text = GetStrByID(languageid);
